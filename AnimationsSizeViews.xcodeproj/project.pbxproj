@@ -12,6 +12,9 @@
 		24793EE41FD78D1200958620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24793EE21FD78D1200958620 /* Main.storyboard */; };
 		24793EE61FD78D1200958620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24793EE51FD78D1200958620 /* Assets.xcassets */; };
 		24793EE91FD78D1200958620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24793EE71FD78D1200958620 /* LaunchScreen.storyboard */; };
+		24793EF11FD888E100958620 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24793EF01FD888E100958620 /* ViewController2.swift */; };
+		24793EF31FD8ECA400958620 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24793EF21FD8ECA400958620 /* CardView.xib */; };
+		24793EF51FD8ED0100958620 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24793EF41FD8ED0100958620 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		24793EE51FD78D1200958620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24793EE81FD78D1200958620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24793EEA1FD78D1200958620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24793EF01FD888E100958620 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		24793EF21FD8ECA400958620 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		24793EF41FD8ED0100958620 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				24793EE51FD78D1200958620 /* Assets.xcassets */,
 				24793EE71FD78D1200958620 /* LaunchScreen.storyboard */,
 				24793EEA1FD78D1200958620 /* Info.plist */,
+				24793EF01FD888E100958620 /* ViewController2.swift */,
+				24793EF21FD8ECA400958620 /* CardView.xib */,
+				24793EF41FD8ED0100958620 /* CardView.swift */,
 			);
 			path = AnimationsSizeViews;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			files = (
 				24793EE91FD78D1200958620 /* LaunchScreen.storyboard in Resources */,
 				24793EE61FD78D1200958620 /* Assets.xcassets in Resources */,
+				24793EF31FD8ECA400958620 /* CardView.xib in Resources */,
 				24793EE41FD78D1200958620 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +148,8 @@
 			files = (
 				24793EE11FD78D1200958620 /* ViewController.swift in Sources */,
 				24793EDF1FD78D1200958620 /* AppDelegate.swift in Sources */,
+				24793EF51FD8ED0100958620 /* CardView.swift in Sources */,
+				24793EF11FD888E100958620 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
